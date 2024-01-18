@@ -6,7 +6,7 @@
   "author": "Simeon Griggs",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev",
+    "dev": "remix dev --port 4004",
     "lint": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "cy:open": "cypress open",
